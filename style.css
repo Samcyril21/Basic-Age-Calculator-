@@ -1,12 +1,13 @@
 body {
   margin: 0;
   padding: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family:"Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
   background-color: #f7f7f7;
+  color:#07D2BE;
 }
 
 .container {
-  background-color: white;
+  background-color: #181818;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   max-width: 600px;
@@ -34,9 +35,17 @@ label {
 }
 
 input {
+  background-color: #595E60;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 100%;
   max-width: 300px;
+}
+button{
+  background-color: #07D2BE;
+  color: #181818;
+  margin-top: 20px;
+  border-radius: 10px;
+
 }
